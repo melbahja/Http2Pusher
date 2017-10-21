@@ -13,6 +13,8 @@
         }
     ],
 
+    "minimum-stability":"dev",
+    
     "autoload": {
         "psr-4": {
             "Melbahja\\Http2\\": "src/"
