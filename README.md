@@ -6,11 +6,11 @@ PHP Http2 Server Pusher
 > HTTP/2 Push allows a web server to send resources to a web browser before the browser gets to request them. It is, for the most part, a performance technique that can help some websites load faster. - [wikipedia](https://en.wikipedia.org/wiki/HTTP/2_Server_Push)
 
 ![http2](https://blog.cloudflare.com/content/images/2015/12/http-2-multiplexing.png)
-<small>image by cloudflare</small>
+image by cloudflare
 
 ## Installation :
 
-using composer: ```bash composer require melbahja/http2-pusher ```
+using composer: ```composer require melbahja/http2-pusher```
 
 ## Usage :
 
