@@ -1,0 +1,33 @@
+{
+    "name": "melbahja/http2-pusher",
+    "type": "library",
+    "description": "PHP Http2 Server Pusher",
+    "keywords": ["php71","php7","http","http2","pusher"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohamed ELbahja",
+            "email": "mohamed@elbahja.me",
+            "homepage": "http://elbahja.me",
+            "role": "Founder & Developer"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "Melbahja\\Http2\\": "src/"
+        }
+    },
+
+    "support": {
+        "issues": "https://github.com/melbahja/Http2Pusher/issues"
+    },
+
+    "require": {
+        "php": ">=7.1"
+    },
+
+    "require-dev": {
+        "phpunit/phpunit": "~6.3"
+    }
+}
