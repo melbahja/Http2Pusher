@@ -108,7 +108,7 @@ class Pusher implements PusherInterface
 			throw new PusherException("header type is not valid");
 		}
 
-		return implode($line, ', ');
+		return implode(', ', $line);
 	}
 
 	/**
