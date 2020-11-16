@@ -170,7 +170,4 @@ class Pusher implements PusherInterface
 		return implode('; ', $opts);
 	}
 
-	protected function __construct() { }
-	protected function __clone() { }
-	protected function __wakeup() { }
 }
